@@ -1,0 +1,30 @@
+PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - MBProgressHUD (1.1.0)
+  - YTKNetwork (2.1.4):
+    - AFNetworking/NSURLSession (~> 3.0)
+
+DEPENDENCIES:
+  - MBProgressHUD (= 1.1.0)
+  - YTKNetwork
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - MBProgressHUD
+    - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
+
+PODFILE CHECKSUM: 146db6cd27e08af4b22534307d313df880596a79
+
+COCOAPODS: 1.8.4

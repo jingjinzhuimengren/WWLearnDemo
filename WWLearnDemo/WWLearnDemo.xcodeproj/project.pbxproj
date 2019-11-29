@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AE00A521FDC14C3B753A6A /* Pods_WWLearnDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75431B07ED0E5A413FA499D0 /* Pods_WWLearnDemo.framework */; };
+		432C9ED1238BBED40056F289 /* WWBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9ECD238BBED40056F289 /* WWBaseRequest.m */; };
+		432C9ED2238BBED40056F289 /* WWNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9ECE238BBED40056F289 /* WWNetworkRequest.m */; };
+		432C9ED3238BBED40056F289 /* WWHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9ECF238BBED40056F289 /* WWHealthViewController.m */; };
+		432C9ED4238BBED40056F289 /* WWNetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9ED0238BBED40056F289 /* WWNetWorkViewController.m */; };
+		432C9ED8238BBFAF0056F289 /* WWCameraAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9ED7238BBFAF0056F289 /* WWCameraAlbumController.m */; };
+		432C9EDC238BC9BD0056F289 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432C9EDB238BC9BD0056F289 /* Photos.framework */; };
+		432C9EE3238BCF250056F289 /* WWAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE2238BCF250056F289 /* WWAlbumModel.m */; };
+		432C9EE6238BD1AF0056F289 /* WWPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */; };
+		432C9EE9238BD31E0056F289 /* WWPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE8238BD31E0056F289 /* WWPhotoManger.m */; };
+		432C9EEC238BD4A90056F289 /* WWAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EEB238BD4A90056F289 /* WWAlbumView.m */; };
+		432C9EEF238BD5030056F289 /* WWAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */; };
+		432C9EF2238BD5710056F289 /* WWAlbumTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF1238BD5710056F289 /* WWAlbumTableView.m */; };
+		432C9EF5238BD66A0056F289 /* WWAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */; };
+		432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF7238BD7120056F289 /* WWAlbumViewController.m */; };
+		432C9EFB238BD7F40056F289 /* WWPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EFA238BD7F40056F289 /* WWPhotosManager.m */; };
+		438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBAC238408AD00E6F0E1 /* AppDelegate.m */; };
+		438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBB2238408AD00E6F0E1 /* ViewController.m */; };
+		438CFBB6238408AD00E6F0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438CFBB4238408AD00E6F0E1 /* Main.storyboard */; };
+		438CFBB8238408AD00E6F0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438CFBB7238408AD00E6F0E1 /* Assets.xcassets */; };
+		438CFBBB238408AD00E6F0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438CFBB9238408AD00E6F0E1 /* LaunchScreen.storyboard */; };
+		438CFBBE238408AD00E6F0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBBD238408AD00E6F0E1 /* main.m */; };
+		438CFBC8238408AD00E6F0E1 /* WWLearnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBC7238408AD00E6F0E1 /* WWLearnDemoTests.m */; };
+		438CFBD3238408AE00E6F0E1 /* WWLearnDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBD2238408AE00E6F0E1 /* WWLearnDemoUITests.m */; };
+		439EE4B3238F60C300CA6737 /* selectImage_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4AD238F60C300CA6737 /* selectImage_select@3x.png */; };
+		439EE4B4238F60C300CA6737 /* selectImage_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4AE238F60C300CA6737 /* selectImage_select@2x.png */; };
+		439EE4B5238F60C300CA6737 /* photo_select_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4AF238F60C300CA6737 /* photo_select_down@3x.png */; };
+		439EE4B6238F60C300CA6737 /* photo_select_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4B0238F60C300CA6737 /* photo_select_up@2x.png */; };
+		439EE4B7238F60C300CA6737 /* photo_select_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4B1238F60C300CA6737 /* photo_select_up@3x.png */; };
+		439EE4B8238F60C300CA6737 /* photo_select_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4B2238F60C300CA6737 /* photo_select_down@2x.png */; };
+		43DEA69A2387903E003AA0D1 /* WWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DEA6992387903E003AA0D1 /* WWBaseViewController.m */; };
+		43DEA6A223879383003AA0D1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DEA69623878FD2003AA0D1 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438CFBC4238408AD00E6F0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438CFBA0238408AD00E6F0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438CFBA7238408AD00E6F0E1;
+			remoteInfo = WWLearnDemo;
+		};
+		438CFBCF238408AE00E6F0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438CFBA0238408AD00E6F0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438CFBA7238408AD00E6F0E1;
+			remoteInfo = WWLearnDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A81258E71BDA434D83639F2 /* Pods-WWLearnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWLearnDemo.release.xcconfig"; path = "Target Support Files/Pods-WWLearnDemo/Pods-WWLearnDemo.release.xcconfig"; sourceTree = "<group>"; };
+		432C9EC2238BB9500056F289 /* WWLearnDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WWLearnDemo.entitlements; sourceTree = "<group>"; };
+		432C9EC9238BBED40056F289 /* WWNetWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWNetWorkViewController.h; sourceTree = "<group>"; };
+		432C9ECA238BBED40056F289 /* WWHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHealthViewController.h; sourceTree = "<group>"; };
+		432C9ECB238BBED40056F289 /* WWNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWNetworkRequest.h; sourceTree = "<group>"; };
+		432C9ECC238BBED40056F289 /* WWBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseRequest.h; sourceTree = "<group>"; };
+		432C9ECD238BBED40056F289 /* WWBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseRequest.m; sourceTree = "<group>"; };
+		432C9ECE238BBED40056F289 /* WWNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWNetworkRequest.m; sourceTree = "<group>"; };
+		432C9ECF238BBED40056F289 /* WWHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHealthViewController.m; sourceTree = "<group>"; };
+		432C9ED0238BBED40056F289 /* WWNetWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWNetWorkViewController.m; sourceTree = "<group>"; };
+		432C9ED6238BBFAF0056F289 /* WWCameraAlbumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWCameraAlbumController.h; sourceTree = "<group>"; };
+		432C9ED7238BBFAF0056F289 /* WWCameraAlbumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCameraAlbumController.m; sourceTree = "<group>"; };
+		432C9EDB238BC9BD0056F289 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		432C9EE1238BCF250056F289 /* WWAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumModel.h; path = "WWLearnDemo/相机相册/WWAlbumModel.h"; sourceTree = SOURCE_ROOT; };
+		432C9EE2238BCF250056F289 /* WWAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumModel.m; path = "WWLearnDemo/相机相册/WWAlbumModel.m"; sourceTree = SOURCE_ROOT; };
+		432C9EE4238BD1AF0056F289 /* WWPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotoModel.h; path = "WWLearnDemo/相机相册/WWPhotoModel.h"; sourceTree = SOURCE_ROOT; };
+		432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotoModel.m; path = "WWLearnDemo/相机相册/WWPhotoModel.m"; sourceTree = SOURCE_ROOT; };
+		432C9EE7238BD31E0056F289 /* WWPhotoManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotoManger.h; path = "WWLearnDemo/相机相册/WWPhotoManger.h"; sourceTree = SOURCE_ROOT; };
+		432C9EE8238BD31E0056F289 /* WWPhotoManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotoManger.m; path = "WWLearnDemo/相机相册/WWPhotoManger.m"; sourceTree = SOURCE_ROOT; };
+		432C9EEA238BD4A90056F289 /* WWAlbumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumView.h; path = "WWLearnDemo/相机相册/WWAlbumView.h"; sourceTree = SOURCE_ROOT; };
+		432C9EEB238BD4A90056F289 /* WWAlbumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumView.m; path = "WWLearnDemo/相机相册/WWAlbumView.m"; sourceTree = SOURCE_ROOT; };
+		432C9EED238BD5030056F289 /* WWAlbumTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumTableViewCell.h; path = "WWLearnDemo/相机相册/WWAlbumTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumTableViewCell.m; path = "WWLearnDemo/相机相册/WWAlbumTableViewCell.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF0238BD5710056F289 /* WWAlbumTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumTableView.h; path = "WWLearnDemo/相机相册/WWAlbumTableView.h"; sourceTree = SOURCE_ROOT; };
+		432C9EF1238BD5710056F289 /* WWAlbumTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumTableView.m; path = "WWLearnDemo/相机相册/WWAlbumTableView.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF3238BD66A0056F289 /* WWAlbumCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumCollectionViewCell.h; path = "WWLearnDemo/相机相册/WWAlbumCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
+		432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumCollectionViewCell.m; path = "WWLearnDemo/相机相册/WWAlbumCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF6238BD7120056F289 /* WWAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumViewController.h; path = "WWLearnDemo/相机相册/WWAlbumViewController.h"; sourceTree = SOURCE_ROOT; };
+		432C9EF7238BD7120056F289 /* WWAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumViewController.m; path = "WWLearnDemo/相机相册/WWAlbumViewController.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF9238BD7F40056F289 /* WWPhotosManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotosManager.h; path = "WWLearnDemo/相机相册/WWPhotosManager.h"; sourceTree = SOURCE_ROOT; };
+		432C9EFA238BD7F40056F289 /* WWPhotosManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotosManager.m; path = "WWLearnDemo/相机相册/WWPhotosManager.m"; sourceTree = SOURCE_ROOT; };
+		438CFBA8238408AD00E6F0E1 /* WWLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438CFBAB238408AD00E6F0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		438CFBAC238408AD00E6F0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		438CFBB1238408AD00E6F0E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		438CFBB2238408AD00E6F0E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		438CFBB5238408AD00E6F0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438CFBB7238408AD00E6F0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438CFBBA238408AD00E6F0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438CFBBC238408AD00E6F0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438CFBBD238408AD00E6F0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		438CFBC3238408AD00E6F0E1 /* WWLearnDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWLearnDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438CFBC7238408AD00E6F0E1 /* WWLearnDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLearnDemoTests.m; sourceTree = "<group>"; };
+		438CFBC9238408AD00E6F0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438CFBCE238408AE00E6F0E1 /* WWLearnDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWLearnDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438CFBD2238408AE00E6F0E1 /* WWLearnDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLearnDemoUITests.m; sourceTree = "<group>"; };
+		438CFBD4238408AE00E6F0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439EE4AD238F60C300CA6737 /* selectImage_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage_select@3x.png"; sourceTree = "<group>"; };
+		439EE4AE238F60C300CA6737 /* selectImage_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage_select@2x.png"; sourceTree = "<group>"; };
+		439EE4AF238F60C300CA6737 /* photo_select_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_down@3x.png"; sourceTree = "<group>"; };
+		439EE4B0238F60C300CA6737 /* photo_select_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_up@2x.png"; sourceTree = "<group>"; };
+		439EE4B1238F60C300CA6737 /* photo_select_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_up@3x.png"; sourceTree = "<group>"; };
+		439EE4B2238F60C300CA6737 /* photo_select_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_down@2x.png"; sourceTree = "<group>"; };
+		43DEA69523878FD2003AA0D1 /* WWLearnDemoDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WWLearnDemoDebug.entitlements; sourceTree = "<group>"; };
+		43DEA69623878FD2003AA0D1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		43DEA6982387903E003AA0D1 /* WWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWBaseViewController.h; sourceTree = "<group>"; };
+		43DEA6992387903E003AA0D1 /* WWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWBaseViewController.m; sourceTree = "<group>"; };
+		75431B07ED0E5A413FA499D0 /* Pods_WWLearnDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWLearnDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FDA1F37DBE14C0BE25199B /* Pods-WWLearnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWLearnDemo.debug.xcconfig"; path = "Target Support Files/Pods-WWLearnDemo/Pods-WWLearnDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438CFBA5238408AD00E6F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DEA6A223879383003AA0D1 /* HealthKit.framework in Frameworks */,
+				432C9EDC238BC9BD0056F289 /* Photos.framework in Frameworks */,
+				12AE00A521FDC14C3B753A6A /* Pods_WWLearnDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438CFBC0238408AD00E6F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438CFBCB238408AE00E6F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA4B0444FD5B5F532D3E17B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93FDA1F37DBE14C0BE25199B /* Pods-WWLearnDemo.debug.xcconfig */,
+				3A81258E71BDA434D83639F2 /* Pods-WWLearnDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		432C9EC8238BBED40056F289 /* 网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EC9238BBED40056F289 /* WWNetWorkViewController.h */,
+				432C9ECB238BBED40056F289 /* WWNetworkRequest.h */,
+				432C9ECC238BBED40056F289 /* WWBaseRequest.h */,
+				432C9ECD238BBED40056F289 /* WWBaseRequest.m */,
+				432C9ECE238BBED40056F289 /* WWNetworkRequest.m */,
+				432C9ED0238BBED40056F289 /* WWNetWorkViewController.m */,
+			);
+			path = "网络请求";
+			sourceTree = "<group>";
+		};
+		432C9ED5238BBF450056F289 /* 相机相册 */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EDD238BCECC0056F289 /* WWAlbum */,
+				432C9ED6238BBFAF0056F289 /* WWCameraAlbumController.h */,
+				432C9ED7238BBFAF0056F289 /* WWCameraAlbumController.m */,
+			);
+			path = "相机相册";
+			sourceTree = "<group>";
+		};
+		432C9EDA238BC67A0056F289 /* 健康步数 */ = {
+			isa = PBXGroup;
+			children = (
+				432C9ECA238BBED40056F289 /* WWHealthViewController.h */,
+				432C9ECF238BBED40056F289 /* WWHealthViewController.m */,
+			);
+			path = "健康步数";
+			sourceTree = "<group>";
+		};
+		432C9EDD238BCECC0056F289 /* WWAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				439EE4AC238F60C300CA6737 /* photo_select_images */,
+				432C9EDE238BCF010056F289 /* Controller */,
+				432C9EDF238BCF010056F289 /* Model */,
+				432C9EE0238BCF010056F289 /* View */,
+				432C9EF9238BD7F40056F289 /* WWPhotosManager.h */,
+				432C9EFA238BD7F40056F289 /* WWPhotosManager.m */,
+			);
+			name = WWAlbum;
+			path = ../../../../WWAlbum;
+			sourceTree = "<group>";
+		};
+		432C9EDE238BCF010056F289 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EF6238BD7120056F289 /* WWAlbumViewController.h */,
+				432C9EF7238BD7120056F289 /* WWAlbumViewController.m */,
+			);
+			name = Controller;
+			path = ../Controller;
+			sourceTree = "<group>";
+		};
+		432C9EDF238BCF010056F289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EE1238BCF250056F289 /* WWAlbumModel.h */,
+				432C9EE2238BCF250056F289 /* WWAlbumModel.m */,
+				432C9EE4238BD1AF0056F289 /* WWPhotoModel.h */,
+				432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */,
+				432C9EE7238BD31E0056F289 /* WWPhotoManger.h */,
+				432C9EE8238BD31E0056F289 /* WWPhotoManger.m */,
+			);
+			name = Model;
+			path = ../Model;
+			sourceTree = "<group>";
+		};
+		432C9EE0238BCF010056F289 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EEA238BD4A90056F289 /* WWAlbumView.h */,
+				432C9EEB238BD4A90056F289 /* WWAlbumView.m */,
+				432C9EED238BD5030056F289 /* WWAlbumTableViewCell.h */,
+				432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */,
+				432C9EF0238BD5710056F289 /* WWAlbumTableView.h */,
+				432C9EF1238BD5710056F289 /* WWAlbumTableView.m */,
+				432C9EF3238BD66A0056F289 /* WWAlbumCollectionViewCell.h */,
+				432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */,
+			);
+			name = View;
+			path = ../View;
+			sourceTree = "<group>";
+		};
+		438CFB9F238408AD00E6F0E1 = {
+			isa = PBXGroup;
+			children = (
+				438CFBAA238408AD00E6F0E1 /* WWLearnDemo */,
+				438CFBC6238408AD00E6F0E1 /* WWLearnDemoTests */,
+				438CFBD1238408AE00E6F0E1 /* WWLearnDemoUITests */,
+				438CFBA9238408AD00E6F0E1 /* Products */,
+				1AA4B0444FD5B5F532D3E17B /* Pods */,
+				F316E5E206F21ED940D50EE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		438CFBA9238408AD00E6F0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438CFBA8238408AD00E6F0E1 /* WWLearnDemo.app */,
+				438CFBC3238408AD00E6F0E1 /* WWLearnDemoTests.xctest */,
+				438CFBCE238408AE00E6F0E1 /* WWLearnDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438CFBAA238408AD00E6F0E1 /* WWLearnDemo */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EDA238BC67A0056F289 /* 健康步数 */,
+				432C9ED5238BBF450056F289 /* 相机相册 */,
+				432C9EC8238BBED40056F289 /* 网络请求 */,
+				432C9EC2238BB9500056F289 /* WWLearnDemo.entitlements */,
+				43DEA69523878FD2003AA0D1 /* WWLearnDemoDebug.entitlements */,
+				43B25BC62386279400A7D59A /* Base */,
+				438CFBB4238408AD00E6F0E1 /* Main.storyboard */,
+				438CFBB7238408AD00E6F0E1 /* Assets.xcassets */,
+				438CFBB9238408AD00E6F0E1 /* LaunchScreen.storyboard */,
+				438CFBBC238408AD00E6F0E1 /* Info.plist */,
+				438CFBBD238408AD00E6F0E1 /* main.m */,
+			);
+			path = WWLearnDemo;
+			sourceTree = "<group>";
+		};
+		438CFBC6238408AD00E6F0E1 /* WWLearnDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				438CFBC7238408AD00E6F0E1 /* WWLearnDemoTests.m */,
+				438CFBC9238408AD00E6F0E1 /* Info.plist */,
+			);
+			path = WWLearnDemoTests;
+			sourceTree = "<group>";
+		};
+		438CFBD1238408AE00E6F0E1 /* WWLearnDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				438CFBD2238408AE00E6F0E1 /* WWLearnDemoUITests.m */,
+				438CFBD4238408AE00E6F0E1 /* Info.plist */,
+			);
+			path = WWLearnDemoUITests;
+			sourceTree = "<group>";
+		};
+		439EE4AC238F60C300CA6737 /* photo_select_images */ = {
+			isa = PBXGroup;
+			children = (
+				439EE4AD238F60C300CA6737 /* selectImage_select@3x.png */,
+				439EE4AE238F60C300CA6737 /* selectImage_select@2x.png */,
+				439EE4AF238F60C300CA6737 /* photo_select_down@3x.png */,
+				439EE4B0238F60C300CA6737 /* photo_select_up@2x.png */,
+				439EE4B1238F60C300CA6737 /* photo_select_up@3x.png */,
+				439EE4B2238F60C300CA6737 /* photo_select_down@2x.png */,
+			);
+			name = photo_select_images;
+			path = ../photo_select_images;
+			sourceTree = "<group>";
+		};
+		43B25BC62386279400A7D59A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				438CFBAB238408AD00E6F0E1 /* AppDelegate.h */,
+				438CFBAC238408AD00E6F0E1 /* AppDelegate.m */,
+				438CFBB1238408AD00E6F0E1 /* ViewController.h */,
+				438CFBB2238408AD00E6F0E1 /* ViewController.m */,
+				43DEA6982387903E003AA0D1 /* WWBaseViewController.h */,
+				43DEA6992387903E003AA0D1 /* WWBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F316E5E206F21ED940D50EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EDB238BC9BD0056F289 /* Photos.framework */,
+				43DEA69623878FD2003AA0D1 /* HealthKit.framework */,
+				75431B07ED0E5A413FA499D0 /* Pods_WWLearnDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438CFBA7238408AD00E6F0E1 /* WWLearnDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438CFBD7238408AE00E6F0E1 /* Build configuration list for PBXNativeTarget "WWLearnDemo" */;
+			buildPhases = (
+				82DB6BB83A2E02F1CBD80316 /* [CP] Check Pods Manifest.lock */,
+				438CFBA4238408AD00E6F0E1 /* Sources */,
+				438CFBA5238408AD00E6F0E1 /* Frameworks */,
+				438CFBA6238408AD00E6F0E1 /* Resources */,
+				9C9406CD697214B126D3989C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLearnDemo;
+			productName = WWLearnDemo;
+			productReference = 438CFBA8238408AD00E6F0E1 /* WWLearnDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438CFBC2238408AD00E6F0E1 /* WWLearnDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438CFBDA238408AE00E6F0E1 /* Build configuration list for PBXNativeTarget "WWLearnDemoTests" */;
+			buildPhases = (
+				438CFBBF238408AD00E6F0E1 /* Sources */,
+				438CFBC0238408AD00E6F0E1 /* Frameworks */,
+				438CFBC1238408AD00E6F0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438CFBC5238408AD00E6F0E1 /* PBXTargetDependency */,
+			);
+			name = WWLearnDemoTests;
+			productName = WWLearnDemoTests;
+			productReference = 438CFBC3238408AD00E6F0E1 /* WWLearnDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438CFBCD238408AE00E6F0E1 /* WWLearnDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438CFBDD238408AE00E6F0E1 /* Build configuration list for PBXNativeTarget "WWLearnDemoUITests" */;
+			buildPhases = (
+				438CFBCA238408AE00E6F0E1 /* Sources */,
+				438CFBCB238408AE00E6F0E1 /* Frameworks */,
+				438CFBCC238408AE00E6F0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438CFBD0238408AE00E6F0E1 /* PBXTargetDependency */,
+			);
+			name = WWLearnDemoUITests;
+			productName = WWLearnDemoUITests;
+			productReference = 438CFBCE238408AE00E6F0E1 /* WWLearnDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438CFBA0238408AD00E6F0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WW;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = wwchao;
+				TargetAttributes = {
+					438CFBA7238408AD00E6F0E1 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					438CFBC2238408AD00E6F0E1 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 438CFBA7238408AD00E6F0E1;
+					};
+					438CFBCD238408AE00E6F0E1 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 438CFBA7238408AD00E6F0E1;
+					};
+				};
+			};
+			buildConfigurationList = 438CFBA3238408AD00E6F0E1 /* Build configuration list for PBXProject "WWLearnDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438CFB9F238408AD00E6F0E1;
+			productRefGroup = 438CFBA9238408AD00E6F0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438CFBA7238408AD00E6F0E1 /* WWLearnDemo */,
+				438CFBC2238408AD00E6F0E1 /* WWLearnDemoTests */,
+				438CFBCD238408AE00E6F0E1 /* WWLearnDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438CFBA6238408AD00E6F0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438CFBBB238408AD00E6F0E1 /* LaunchScreen.storyboard in Resources */,
+				439EE4B7238F60C300CA6737 /* photo_select_up@3x.png in Resources */,
+				439EE4B4238F60C300CA6737 /* selectImage_select@2x.png in Resources */,
+				439EE4B5238F60C300CA6737 /* photo_select_down@3x.png in Resources */,
+				439EE4B3238F60C300CA6737 /* selectImage_select@3x.png in Resources */,
+				439EE4B8238F60C300CA6737 /* photo_select_down@2x.png in Resources */,
+				438CFBB8238408AD00E6F0E1 /* Assets.xcassets in Resources */,
+				438CFBB6238408AD00E6F0E1 /* Main.storyboard in Resources */,
+				439EE4B6238F60C300CA6737 /* photo_select_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438CFBC1238408AD00E6F0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438CFBCC238408AE00E6F0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82DB6BB83A2E02F1CBD80316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWLearnDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9406CD697214B126D3989C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WWLearnDemo/Pods-WWLearnDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WWLearnDemo/Pods-WWLearnDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438CFBA4238408AD00E6F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432C9EF2238BD5710056F289 /* WWAlbumTableView.m in Sources */,
+				432C9EE9238BD31E0056F289 /* WWPhotoManger.m in Sources */,
+				432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */,
+				432C9ED1238BBED40056F289 /* WWBaseRequest.m in Sources */,
+				438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */,
+				438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */,
+				432C9EFB238BD7F40056F289 /* WWPhotosManager.m in Sources */,
+				43DEA69A2387903E003AA0D1 /* WWBaseViewController.m in Sources */,
+				432C9EEC238BD4A90056F289 /* WWAlbumView.m in Sources */,
+				432C9ED8238BBFAF0056F289 /* WWCameraAlbumController.m in Sources */,
+				438CFBBE238408AD00E6F0E1 /* main.m in Sources */,
+				432C9ED3238BBED40056F289 /* WWHealthViewController.m in Sources */,
+				432C9ED2238BBED40056F289 /* WWNetworkRequest.m in Sources */,
+				432C9ED4238BBED40056F289 /* WWNetWorkViewController.m in Sources */,
+				432C9EF5238BD66A0056F289 /* WWAlbumCollectionViewCell.m in Sources */,
+				432C9EEF238BD5030056F289 /* WWAlbumTableViewCell.m in Sources */,
+				432C9EE3238BCF250056F289 /* WWAlbumModel.m in Sources */,
+				432C9EE6238BD1AF0056F289 /* WWPhotoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438CFBBF238408AD00E6F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438CFBC8238408AD00E6F0E1 /* WWLearnDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438CFBCA238408AE00E6F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438CFBD3238408AE00E6F0E1 /* WWLearnDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438CFBC5238408AD00E6F0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438CFBA7238408AD00E6F0E1 /* WWLearnDemo */;
+			targetProxy = 438CFBC4238408AD00E6F0E1 /* PBXContainerItemProxy */;
+		};
+		438CFBD0238408AE00E6F0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438CFBA7238408AD00E6F0E1 /* WWLearnDemo */;
+			targetProxy = 438CFBCF238408AE00E6F0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438CFBB4238408AD00E6F0E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438CFBB5238408AD00E6F0E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438CFBB9238408AD00E6F0E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438CFBBA238408AD00E6F0E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438CFBD5238408AE00E6F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		438CFBD6238408AE00E6F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438CFBD8238408AE00E6F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FDA1F37DBE14C0BE25199B /* Pods-WWLearnDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WWLearnDemo/WWLearnDemoDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV4XXT9AQ7;
+				INFOPLIST_FILE = WWLearnDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.WWLearnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		438CFBD9238408AE00E6F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A81258E71BDA434D83639F2 /* Pods-WWLearnDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WWLearnDemo/WWLearnDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV4XXT9AQ7;
+				INFOPLIST_FILE = WWLearnDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.WWLearnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		438CFBDB238408AE00E6F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WWLearnDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ww.WWLearnDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWLearnDemo.app/WWLearnDemo";
+			};
+			name = Debug;
+		};
+		438CFBDC238408AE00E6F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WWLearnDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ww.WWLearnDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWLearnDemo.app/WWLearnDemo";
+			};
+			name = Release;
+		};
+		438CFBDE238408AE00E6F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WWLearnDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ww.WWLearnDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WWLearnDemo;
+			};
+			name = Debug;
+		};
+		438CFBDF238408AE00E6F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WWLearnDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ww.WWLearnDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WWLearnDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438CFBA3238408AD00E6F0E1 /* Build configuration list for PBXProject "WWLearnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438CFBD5238408AE00E6F0E1 /* Debug */,
+				438CFBD6238408AE00E6F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438CFBD7238408AE00E6F0E1 /* Build configuration list for PBXNativeTarget "WWLearnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438CFBD8238408AE00E6F0E1 /* Debug */,
+				438CFBD9238408AE00E6F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438CFBDA238408AE00E6F0E1 /* Build configuration list for PBXNativeTarget "WWLearnDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438CFBDB238408AE00E6F0E1 /* Debug */,
+				438CFBDC238408AE00E6F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438CFBDD238408AE00E6F0E1 /* Build configuration list for PBXNativeTarget "WWLearnDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438CFBDE238408AE00E6F0E1 /* Debug */,
+				438CFBDF238408AE00E6F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438CFBA0238408AD00E6F0E1 /* Project object */;
+}

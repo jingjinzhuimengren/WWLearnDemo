@@ -1,0 +1,9 @@
+platform:ios,'9.0'
+use_frameworks!
+target 'WWLearnDemo' do
+
+pod 'YTKNetwork'
+pod 'MBProgressHUD', '1.1.0'
+
+end
+
