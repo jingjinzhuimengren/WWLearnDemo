@@ -22,6 +22,7 @@
 		432C9EF5238BD66A0056F289 /* WWAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */; };
 		432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF7238BD7120056F289 /* WWAlbumViewController.m */; };
 		437E89202396592E001127BD /* WWSoundRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437E891F2396592E001127BD /* WWSoundRecordController.m */; };
+		437E892423966EE8001127BD /* WWCheckAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 437E892323966EE8001127BD /* WWCheckAuthorization.m */; };
 		438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBAC238408AD00E6F0E1 /* AppDelegate.m */; };
 		438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBB2238408AD00E6F0E1 /* ViewController.m */; };
 		438CFBB6238408AD00E6F0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438CFBB4238408AD00E6F0E1 /* Main.storyboard */; };
@@ -91,6 +92,8 @@
 		432C9EF7238BD7120056F289 /* WWAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumViewController.m; path = "WWLearnDemo/相机相册/WWAlbum/Controller/WWAlbumViewController.m"; sourceTree = SOURCE_ROOT; };
 		437E891E2396592D001127BD /* WWSoundRecordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWSoundRecordController.h; sourceTree = "<group>"; };
 		437E891F2396592E001127BD /* WWSoundRecordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSoundRecordController.m; sourceTree = "<group>"; };
+		437E892223966EE8001127BD /* WWCheckAuthorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWCheckAuthorization.h; sourceTree = "<group>"; };
+		437E892323966EE8001127BD /* WWCheckAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCheckAuthorization.m; sourceTree = "<group>"; };
 		438CFBA8238408AD00E6F0E1 /* WWLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438CFBAB238408AD00E6F0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		438CFBAC238408AD00E6F0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -269,6 +272,8 @@
 				438CFBB2238408AD00E6F0E1 /* ViewController.m */,
 				43DEA6982387903E003AA0D1 /* WWBaseViewController.h */,
 				43DEA6992387903E003AA0D1 /* WWBaseViewController.m */,
+				437E892223966EE8001127BD /* WWCheckAuthorization.h */,
+				437E892323966EE8001127BD /* WWCheckAuthorization.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -541,6 +546,7 @@
 				438CFBBE238408AD00E6F0E1 /* main.m in Sources */,
 				432C9ED3238BBED40056F289 /* WWHealthViewController.m in Sources */,
 				432C9ED2238BBED40056F289 /* WWNetworkRequest.m in Sources */,
+				437E892423966EE8001127BD /* WWCheckAuthorization.m in Sources */,
 				432C9ED4238BBED40056F289 /* WWNetWorkViewController.m in Sources */,
 				432C9EF5238BD66A0056F289 /* WWAlbumCollectionViewCell.m in Sources */,
 				432C9EEF238BD5030056F289 /* WWAlbumTableViewCell.m in Sources */,
