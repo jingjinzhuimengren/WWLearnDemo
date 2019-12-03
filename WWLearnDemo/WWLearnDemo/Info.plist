@@ -7,6 +7,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>App需要您的同意,才能使用语音识别技术</string>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
 	<key>NSMicrophoneUsageDescription</key>

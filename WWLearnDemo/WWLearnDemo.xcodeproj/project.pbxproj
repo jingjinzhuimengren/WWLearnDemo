@@ -21,6 +21,7 @@
 		432C9EF2238BD5710056F289 /* WWAlbumTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF1238BD5710056F289 /* WWAlbumTableView.m */; };
 		432C9EF5238BD66A0056F289 /* WWAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */; };
 		432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF7238BD7120056F289 /* WWAlbumViewController.m */; };
+		437E89202396592E001127BD /* WWSoundRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437E891F2396592E001127BD /* WWSoundRecordController.m */; };
 		438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBAC238408AD00E6F0E1 /* AppDelegate.m */; };
 		438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBB2238408AD00E6F0E1 /* ViewController.m */; };
 		438CFBB6238408AD00E6F0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438CFBB4238408AD00E6F0E1 /* Main.storyboard */; };
@@ -88,6 +89,8 @@
 		432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumCollectionViewCell.m; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
 		432C9EF6238BD7120056F289 /* WWAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumViewController.h; path = "WWLearnDemo/相机相册/WWAlbum/Controller/WWAlbumViewController.h"; sourceTree = SOURCE_ROOT; };
 		432C9EF7238BD7120056F289 /* WWAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumViewController.m; path = "WWLearnDemo/相机相册/WWAlbum/Controller/WWAlbumViewController.m"; sourceTree = SOURCE_ROOT; };
+		437E891E2396592D001127BD /* WWSoundRecordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWSoundRecordController.h; sourceTree = "<group>"; };
+		437E891F2396592E001127BD /* WWSoundRecordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSoundRecordController.m; sourceTree = "<group>"; };
 		438CFBA8238408AD00E6F0E1 /* WWLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438CFBAB238408AD00E6F0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		438CFBAC238408AD00E6F0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -189,6 +192,15 @@
 			path = "健康步数";
 			sourceTree = "<group>";
 		};
+		437E891D239658BA001127BD /* SoundRecord */ = {
+			isa = PBXGroup;
+			children = (
+				437E891E2396592D001127BD /* WWSoundRecordController.h */,
+				437E891F2396592E001127BD /* WWSoundRecordController.m */,
+			);
+			path = SoundRecord;
+			sourceTree = "<group>";
+		};
 		438CFB9F238408AD00E6F0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +226,7 @@
 		438CFBAA238408AD00E6F0E1 /* WWLearnDemo */ = {
 			isa = PBXGroup;
 			children = (
+				437E891D239658BA001127BD /* SoundRecord */,
 				432C9EDA238BC67A0056F289 /* 健康步数 */,
 				432C9ED5238BBF450056F289 /* 相机相册 */,
 				432C9EC8238BBED40056F289 /* 网络请求 */,
@@ -518,6 +531,7 @@
 				432C9EF2238BD5710056F289 /* WWAlbumTableView.m in Sources */,
 				432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */,
 				432C9ED1238BBED40056F289 /* WWBaseRequest.m in Sources */,
+				437E89202396592E001127BD /* WWSoundRecordController.m in Sources */,
 				438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */,
 				438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */,
 				43B4AC052395FBF400525899 /* WWPhotosManager.m in Sources */,

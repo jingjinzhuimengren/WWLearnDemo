@@ -10,6 +10,7 @@
 #import "WWHealthViewController.h"
 #import "WWCameraAlbumController.h"
 #import "WWPhotosManager.h"
+#import "WWSoundRecordController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -25,7 +26,6 @@
     
     self.title = @"主页";
     self.view.backgroundColor = [UIColor whiteColor];
-    self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -71,6 +71,10 @@
             NSLog(@"%@", albumArray);
         }];
     }
+    if (indexPath.row == 3) {//录音
+        WWSoundRecordController *vc = [[WWSoundRecordController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (UITableView *)tableView{
@@ -92,7 +96,7 @@
         [_dataArray addObject:@"运行步数"];
         [_dataArray addObject:@"相机相册"];
         [_dataArray addObject:@"自定义相册"];
-        
+        [_dataArray addObject:@"录音播放"];
     }
     return _dataArray;
 }

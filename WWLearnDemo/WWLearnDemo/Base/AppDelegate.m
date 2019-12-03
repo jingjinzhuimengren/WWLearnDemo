@@ -29,10 +29,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    
-    [self initLaunchScreen];
-    
-    [NSThread sleepForTimeInterval:10];
     ViewController *vc = [[ViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
     
