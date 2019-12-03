@@ -27,14 +27,15 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     
     
     [self initLaunchScreen];
     
-    
+    [NSThread sleepForTimeInterval:10];
     ViewController *vc = [[ViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
-    [self.window makeKeyAndVisible];
+    
     
     return YES;
 }
@@ -44,6 +45,7 @@
     
     UIViewController *launchVC = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
     _launchView = launchVC.view;
+    _launchView.backgroundColor = [UIColor redColor];
     
     UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
     _launchView.frame = [UIApplication sharedApplication].keyWindow.frame;
@@ -52,16 +54,17 @@
     [imageView sd_setImageWithURL:[NSURL URLWithString:@"http://pic15.nipic.com/20110628/1369025_192645024000_2.jpg"]];
         //根据需求添加约束最好
     imageView.frame = CGRectMake(0, 0, 200, 200);
-    imageView.backgroundColor=[UIColor whiteColor];
+    imageView.backgroundColor=[UIColor blackColor];
     [_launchView addSubview:imageView];
-    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(removeLaunchImage) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(removeLaunchImage) userInfo:nil repeats:NO];
 }
 
--(void)removeLaunchImage{
-    [_launchView removeFromSuperview];
-    //设置rootViewController的代码
-
-}
+//-(void)removeLaunchImage{
+//    [_launchView removeFromSuperview];
+//    //设置rootViewController的代码
+//
+//    
+//}
 
 
 
