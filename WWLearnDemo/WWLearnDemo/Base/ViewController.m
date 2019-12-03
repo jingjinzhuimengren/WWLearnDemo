@@ -25,7 +25,7 @@
     
     self.title = @"主页";
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
 }
 
 - (void)viewWillAppear:(BOOL)animated{
