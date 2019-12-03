@@ -16,13 +16,11 @@
 		432C9EDC238BC9BD0056F289 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432C9EDB238BC9BD0056F289 /* Photos.framework */; };
 		432C9EE3238BCF250056F289 /* WWAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE2238BCF250056F289 /* WWAlbumModel.m */; };
 		432C9EE6238BD1AF0056F289 /* WWPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */; };
-		432C9EE9238BD31E0056F289 /* WWPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE8238BD31E0056F289 /* WWPhotoManger.m */; };
 		432C9EEC238BD4A90056F289 /* WWAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EEB238BD4A90056F289 /* WWAlbumView.m */; };
 		432C9EEF238BD5030056F289 /* WWAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */; };
 		432C9EF2238BD5710056F289 /* WWAlbumTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF1238BD5710056F289 /* WWAlbumTableView.m */; };
 		432C9EF5238BD66A0056F289 /* WWAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */; };
 		432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EF7238BD7120056F289 /* WWAlbumViewController.m */; };
-		432C9EFB238BD7F40056F289 /* WWPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EFA238BD7F40056F289 /* WWPhotosManager.m */; };
 		438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBAC238408AD00E6F0E1 /* AppDelegate.m */; };
 		438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBB2238408AD00E6F0E1 /* ViewController.m */; };
 		438CFBB6238408AD00E6F0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438CFBB4238408AD00E6F0E1 /* Main.storyboard */; };
@@ -31,12 +29,14 @@
 		438CFBBE238408AD00E6F0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBBD238408AD00E6F0E1 /* main.m */; };
 		438CFBC8238408AD00E6F0E1 /* WWLearnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBC7238408AD00E6F0E1 /* WWLearnDemoTests.m */; };
 		438CFBD3238408AE00E6F0E1 /* WWLearnDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CFBD2238408AE00E6F0E1 /* WWLearnDemoUITests.m */; };
-		439EE4B3238F60C300CA6737 /* selectImage_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4AD238F60C300CA6737 /* selectImage_select@3x.png */; };
-		439EE4B4238F60C300CA6737 /* selectImage_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4AE238F60C300CA6737 /* selectImage_select@2x.png */; };
-		439EE4B5238F60C300CA6737 /* photo_select_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4AF238F60C300CA6737 /* photo_select_down@3x.png */; };
-		439EE4B6238F60C300CA6737 /* photo_select_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4B0238F60C300CA6737 /* photo_select_up@2x.png */; };
-		439EE4B7238F60C300CA6737 /* photo_select_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4B1238F60C300CA6737 /* photo_select_up@3x.png */; };
-		439EE4B8238F60C300CA6737 /* photo_select_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439EE4B2238F60C300CA6737 /* photo_select_down@2x.png */; };
+		43B4ABF62395F80A00525899 /* selectImage_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4ABF02395F80A00525899 /* selectImage_select@3x.png */; };
+		43B4ABF72395F80A00525899 /* selectImage_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4ABF12395F80A00525899 /* selectImage_select@2x.png */; };
+		43B4ABF82395F80A00525899 /* photo_select_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4ABF22395F80A00525899 /* photo_select_down@3x.png */; };
+		43B4ABF92395F80A00525899 /* photo_select_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4ABF32395F80A00525899 /* photo_select_up@2x.png */; };
+		43B4ABFA2395F80A00525899 /* photo_select_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4ABF42395F80A00525899 /* photo_select_up@3x.png */; };
+		43B4ABFB2395F80A00525899 /* photo_select_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4ABF52395F80A00525899 /* photo_select_down@2x.png */; };
+		43B4AC022395F99900525899 /* WWPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C9EE8238BD31E0056F289 /* WWPhotoManger.m */; };
+		43B4AC052395FBF400525899 /* WWPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4AC042395FBF400525899 /* WWPhotosManager.m */; };
 		43DEA69A2387903E003AA0D1 /* WWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DEA6992387903E003AA0D1 /* WWBaseViewController.m */; };
 		43DEA6A223879383003AA0D1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DEA69623878FD2003AA0D1 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
@@ -72,24 +72,22 @@
 		432C9ED6238BBFAF0056F289 /* WWCameraAlbumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWCameraAlbumController.h; sourceTree = "<group>"; };
 		432C9ED7238BBFAF0056F289 /* WWCameraAlbumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCameraAlbumController.m; sourceTree = "<group>"; };
 		432C9EDB238BC9BD0056F289 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		432C9EE1238BCF250056F289 /* WWAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumModel.h; path = "WWLearnDemo/相机相册/WWAlbumModel.h"; sourceTree = SOURCE_ROOT; };
-		432C9EE2238BCF250056F289 /* WWAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumModel.m; path = "WWLearnDemo/相机相册/WWAlbumModel.m"; sourceTree = SOURCE_ROOT; };
-		432C9EE4238BD1AF0056F289 /* WWPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotoModel.h; path = "WWLearnDemo/相机相册/WWPhotoModel.h"; sourceTree = SOURCE_ROOT; };
-		432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotoModel.m; path = "WWLearnDemo/相机相册/WWPhotoModel.m"; sourceTree = SOURCE_ROOT; };
-		432C9EE7238BD31E0056F289 /* WWPhotoManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotoManger.h; path = "WWLearnDemo/相机相册/WWPhotoManger.h"; sourceTree = SOURCE_ROOT; };
-		432C9EE8238BD31E0056F289 /* WWPhotoManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotoManger.m; path = "WWLearnDemo/相机相册/WWPhotoManger.m"; sourceTree = SOURCE_ROOT; };
-		432C9EEA238BD4A90056F289 /* WWAlbumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumView.h; path = "WWLearnDemo/相机相册/WWAlbumView.h"; sourceTree = SOURCE_ROOT; };
-		432C9EEB238BD4A90056F289 /* WWAlbumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumView.m; path = "WWLearnDemo/相机相册/WWAlbumView.m"; sourceTree = SOURCE_ROOT; };
-		432C9EED238BD5030056F289 /* WWAlbumTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumTableViewCell.h; path = "WWLearnDemo/相机相册/WWAlbumTableViewCell.h"; sourceTree = SOURCE_ROOT; };
-		432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumTableViewCell.m; path = "WWLearnDemo/相机相册/WWAlbumTableViewCell.m"; sourceTree = SOURCE_ROOT; };
-		432C9EF0238BD5710056F289 /* WWAlbumTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumTableView.h; path = "WWLearnDemo/相机相册/WWAlbumTableView.h"; sourceTree = SOURCE_ROOT; };
-		432C9EF1238BD5710056F289 /* WWAlbumTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumTableView.m; path = "WWLearnDemo/相机相册/WWAlbumTableView.m"; sourceTree = SOURCE_ROOT; };
-		432C9EF3238BD66A0056F289 /* WWAlbumCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumCollectionViewCell.h; path = "WWLearnDemo/相机相册/WWAlbumCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
-		432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumCollectionViewCell.m; path = "WWLearnDemo/相机相册/WWAlbumCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
-		432C9EF6238BD7120056F289 /* WWAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumViewController.h; path = "WWLearnDemo/相机相册/WWAlbumViewController.h"; sourceTree = SOURCE_ROOT; };
-		432C9EF7238BD7120056F289 /* WWAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumViewController.m; path = "WWLearnDemo/相机相册/WWAlbumViewController.m"; sourceTree = SOURCE_ROOT; };
-		432C9EF9238BD7F40056F289 /* WWPhotosManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotosManager.h; path = "WWLearnDemo/相机相册/WWPhotosManager.h"; sourceTree = SOURCE_ROOT; };
-		432C9EFA238BD7F40056F289 /* WWPhotosManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotosManager.m; path = "WWLearnDemo/相机相册/WWPhotosManager.m"; sourceTree = SOURCE_ROOT; };
+		432C9EE1238BCF250056F289 /* WWAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumModel.h; path = "WWLearnDemo/相机相册/WWAlbum/Model/WWAlbumModel.h"; sourceTree = SOURCE_ROOT; };
+		432C9EE2238BCF250056F289 /* WWAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumModel.m; path = "WWLearnDemo/相机相册/WWAlbum/Model/WWAlbumModel.m"; sourceTree = SOURCE_ROOT; };
+		432C9EE4238BD1AF0056F289 /* WWPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotoModel.h; path = "WWLearnDemo/相机相册/WWAlbum/Model/WWPhotoModel.h"; sourceTree = SOURCE_ROOT; };
+		432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotoModel.m; path = "WWLearnDemo/相机相册/WWAlbum/Model/WWPhotoModel.m"; sourceTree = SOURCE_ROOT; };
+		432C9EE7238BD31E0056F289 /* WWPhotoManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWPhotoManger.h; path = "WWLearnDemo/相机相册/WWAlbum/WWPhotoManger.h"; sourceTree = SOURCE_ROOT; };
+		432C9EE8238BD31E0056F289 /* WWPhotoManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWPhotoManger.m; path = "WWLearnDemo/相机相册/WWAlbum/WWPhotoManger.m"; sourceTree = SOURCE_ROOT; };
+		432C9EEA238BD4A90056F289 /* WWAlbumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumView.h; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumView.h"; sourceTree = SOURCE_ROOT; };
+		432C9EEB238BD4A90056F289 /* WWAlbumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumView.m; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumView.m"; sourceTree = SOURCE_ROOT; };
+		432C9EED238BD5030056F289 /* WWAlbumTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumTableViewCell.h; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumTableViewCell.m; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumTableViewCell.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF0238BD5710056F289 /* WWAlbumTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumTableView.h; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumTableView.h"; sourceTree = SOURCE_ROOT; };
+		432C9EF1238BD5710056F289 /* WWAlbumTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumTableView.m; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumTableView.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF3238BD66A0056F289 /* WWAlbumCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumCollectionViewCell.h; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
+		432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumCollectionViewCell.m; path = "WWLearnDemo/相机相册/WWAlbum/View/WWAlbumCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
+		432C9EF6238BD7120056F289 /* WWAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WWAlbumViewController.h; path = "WWLearnDemo/相机相册/WWAlbum/Controller/WWAlbumViewController.h"; sourceTree = SOURCE_ROOT; };
+		432C9EF7238BD7120056F289 /* WWAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WWAlbumViewController.m; path = "WWLearnDemo/相机相册/WWAlbum/Controller/WWAlbumViewController.m"; sourceTree = SOURCE_ROOT; };
 		438CFBA8238408AD00E6F0E1 /* WWLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438CFBAB238408AD00E6F0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		438CFBAC238408AD00E6F0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,12 +104,14 @@
 		438CFBCE238408AE00E6F0E1 /* WWLearnDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWLearnDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438CFBD2238408AE00E6F0E1 /* WWLearnDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLearnDemoUITests.m; sourceTree = "<group>"; };
 		438CFBD4238408AE00E6F0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		439EE4AD238F60C300CA6737 /* selectImage_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage_select@3x.png"; sourceTree = "<group>"; };
-		439EE4AE238F60C300CA6737 /* selectImage_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage_select@2x.png"; sourceTree = "<group>"; };
-		439EE4AF238F60C300CA6737 /* photo_select_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_down@3x.png"; sourceTree = "<group>"; };
-		439EE4B0238F60C300CA6737 /* photo_select_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_up@2x.png"; sourceTree = "<group>"; };
-		439EE4B1238F60C300CA6737 /* photo_select_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_up@3x.png"; sourceTree = "<group>"; };
-		439EE4B2238F60C300CA6737 /* photo_select_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_down@2x.png"; sourceTree = "<group>"; };
+		43B4ABF02395F80A00525899 /* selectImage_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage_select@3x.png"; sourceTree = "<group>"; };
+		43B4ABF12395F80A00525899 /* selectImage_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage_select@2x.png"; sourceTree = "<group>"; };
+		43B4ABF22395F80A00525899 /* photo_select_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_down@3x.png"; sourceTree = "<group>"; };
+		43B4ABF32395F80A00525899 /* photo_select_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_up@2x.png"; sourceTree = "<group>"; };
+		43B4ABF42395F80A00525899 /* photo_select_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_up@3x.png"; sourceTree = "<group>"; };
+		43B4ABF52395F80A00525899 /* photo_select_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_select_down@2x.png"; sourceTree = "<group>"; };
+		43B4AC032395FBF400525899 /* WWPhotosManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWPhotosManager.h; sourceTree = "<group>"; };
+		43B4AC042395FBF400525899 /* WWPhotosManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWPhotosManager.m; sourceTree = "<group>"; };
 		43DEA69523878FD2003AA0D1 /* WWLearnDemoDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WWLearnDemoDebug.entitlements; sourceTree = "<group>"; };
 		43DEA69623878FD2003AA0D1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		43DEA6982387903E003AA0D1 /* WWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWBaseViewController.h; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 		432C9ED5238BBF450056F289 /* 相机相册 */ = {
 			isa = PBXGroup;
 			children = (
-				432C9EDD238BCECC0056F289 /* WWAlbum */,
+				43B4ABFE2395F8BC00525899 /* WWAlbum */,
 				432C9ED6238BBFAF0056F289 /* WWCameraAlbumController.h */,
 				432C9ED7238BBFAF0056F289 /* WWCameraAlbumController.m */,
 			);
@@ -187,60 +187,6 @@
 				432C9ECF238BBED40056F289 /* WWHealthViewController.m */,
 			);
 			path = "健康步数";
-			sourceTree = "<group>";
-		};
-		432C9EDD238BCECC0056F289 /* WWAlbum */ = {
-			isa = PBXGroup;
-			children = (
-				439EE4AC238F60C300CA6737 /* photo_select_images */,
-				432C9EDE238BCF010056F289 /* Controller */,
-				432C9EDF238BCF010056F289 /* Model */,
-				432C9EE0238BCF010056F289 /* View */,
-				432C9EF9238BD7F40056F289 /* WWPhotosManager.h */,
-				432C9EFA238BD7F40056F289 /* WWPhotosManager.m */,
-			);
-			name = WWAlbum;
-			path = ../../../../WWAlbum;
-			sourceTree = "<group>";
-		};
-		432C9EDE238BCF010056F289 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				432C9EF6238BD7120056F289 /* WWAlbumViewController.h */,
-				432C9EF7238BD7120056F289 /* WWAlbumViewController.m */,
-			);
-			name = Controller;
-			path = ../Controller;
-			sourceTree = "<group>";
-		};
-		432C9EDF238BCF010056F289 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				432C9EE1238BCF250056F289 /* WWAlbumModel.h */,
-				432C9EE2238BCF250056F289 /* WWAlbumModel.m */,
-				432C9EE4238BD1AF0056F289 /* WWPhotoModel.h */,
-				432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */,
-				432C9EE7238BD31E0056F289 /* WWPhotoManger.h */,
-				432C9EE8238BD31E0056F289 /* WWPhotoManger.m */,
-			);
-			name = Model;
-			path = ../Model;
-			sourceTree = "<group>";
-		};
-		432C9EE0238BCF010056F289 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				432C9EEA238BD4A90056F289 /* WWAlbumView.h */,
-				432C9EEB238BD4A90056F289 /* WWAlbumView.m */,
-				432C9EED238BD5030056F289 /* WWAlbumTableViewCell.h */,
-				432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */,
-				432C9EF0238BD5710056F289 /* WWAlbumTableView.h */,
-				432C9EF1238BD5710056F289 /* WWAlbumTableView.m */,
-				432C9EF3238BD66A0056F289 /* WWAlbumCollectionViewCell.h */,
-				432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */,
-			);
-			name = View;
-			path = ../View;
 			sourceTree = "<group>";
 		};
 		438CFB9F238408AD00E6F0E1 = {
@@ -301,20 +247,6 @@
 			path = WWLearnDemoUITests;
 			sourceTree = "<group>";
 		};
-		439EE4AC238F60C300CA6737 /* photo_select_images */ = {
-			isa = PBXGroup;
-			children = (
-				439EE4AD238F60C300CA6737 /* selectImage_select@3x.png */,
-				439EE4AE238F60C300CA6737 /* selectImage_select@2x.png */,
-				439EE4AF238F60C300CA6737 /* photo_select_down@3x.png */,
-				439EE4B0238F60C300CA6737 /* photo_select_up@2x.png */,
-				439EE4B1238F60C300CA6737 /* photo_select_up@3x.png */,
-				439EE4B2238F60C300CA6737 /* photo_select_down@2x.png */,
-			);
-			name = photo_select_images;
-			path = ../photo_select_images;
-			sourceTree = "<group>";
-		};
 		43B25BC62386279400A7D59A /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +258,69 @@
 				43DEA6992387903E003AA0D1 /* WWBaseViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		43B4ABEF2395F80A00525899 /* photo_select_images */ = {
+			isa = PBXGroup;
+			children = (
+				43B4ABF02395F80A00525899 /* selectImage_select@3x.png */,
+				43B4ABF12395F80A00525899 /* selectImage_select@2x.png */,
+				43B4ABF22395F80A00525899 /* photo_select_down@3x.png */,
+				43B4ABF32395F80A00525899 /* photo_select_up@2x.png */,
+				43B4ABF42395F80A00525899 /* photo_select_up@3x.png */,
+				43B4ABF52395F80A00525899 /* photo_select_down@2x.png */,
+			);
+			path = photo_select_images;
+			sourceTree = "<group>";
+		};
+		43B4ABFE2395F8BC00525899 /* WWAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				43B4ABEF2395F80A00525899 /* photo_select_images */,
+				432C9EE7238BD31E0056F289 /* WWPhotoManger.h */,
+				432C9EE8238BD31E0056F289 /* WWPhotoManger.m */,
+				43B4AC032395FBF400525899 /* WWPhotosManager.h */,
+				43B4AC042395FBF400525899 /* WWPhotosManager.m */,
+				43B4ABFF2395F8BC00525899 /* Controller */,
+				43B4AC002395F8BC00525899 /* Model */,
+				43B4AC012395F8BC00525899 /* View */,
+			);
+			path = WWAlbum;
+			sourceTree = "<group>";
+		};
+		43B4ABFF2395F8BC00525899 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EF6238BD7120056F289 /* WWAlbumViewController.h */,
+				432C9EF7238BD7120056F289 /* WWAlbumViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		43B4AC002395F8BC00525899 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EE1238BCF250056F289 /* WWAlbumModel.h */,
+				432C9EE2238BCF250056F289 /* WWAlbumModel.m */,
+				432C9EE4238BD1AF0056F289 /* WWPhotoModel.h */,
+				432C9EE5238BD1AF0056F289 /* WWPhotoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43B4AC012395F8BC00525899 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				432C9EEA238BD4A90056F289 /* WWAlbumView.h */,
+				432C9EEB238BD4A90056F289 /* WWAlbumView.m */,
+				432C9EED238BD5030056F289 /* WWAlbumTableViewCell.h */,
+				432C9EEE238BD5030056F289 /* WWAlbumTableViewCell.m */,
+				432C9EF0238BD5710056F289 /* WWAlbumTableView.h */,
+				432C9EF1238BD5710056F289 /* WWAlbumTableView.m */,
+				432C9EF3238BD66A0056F289 /* WWAlbumCollectionViewCell.h */,
+				432C9EF4238BD66A0056F289 /* WWAlbumCollectionViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F316E5E206F21ED940D50EE3 /* Frameworks */ = {
@@ -445,14 +440,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				438CFBBB238408AD00E6F0E1 /* LaunchScreen.storyboard in Resources */,
-				439EE4B7238F60C300CA6737 /* photo_select_up@3x.png in Resources */,
-				439EE4B4238F60C300CA6737 /* selectImage_select@2x.png in Resources */,
-				439EE4B5238F60C300CA6737 /* photo_select_down@3x.png in Resources */,
-				439EE4B3238F60C300CA6737 /* selectImage_select@3x.png in Resources */,
-				439EE4B8238F60C300CA6737 /* photo_select_down@2x.png in Resources */,
+				43B4ABFA2395F80A00525899 /* photo_select_up@3x.png in Resources */,
+				43B4ABF72395F80A00525899 /* selectImage_select@2x.png in Resources */,
+				43B4ABF82395F80A00525899 /* photo_select_down@3x.png in Resources */,
+				43B4ABF62395F80A00525899 /* selectImage_select@3x.png in Resources */,
+				43B4ABFB2395F80A00525899 /* photo_select_down@2x.png in Resources */,
 				438CFBB8238408AD00E6F0E1 /* Assets.xcassets in Resources */,
 				438CFBB6238408AD00E6F0E1 /* Main.storyboard in Resources */,
-				439EE4B6238F60C300CA6737 /* photo_select_up@2x.png in Resources */,
+				43B4ABF92395F80A00525899 /* photo_select_up@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,13 +513,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B4AC022395F99900525899 /* WWPhotoManger.m in Sources */,
 				432C9EF2238BD5710056F289 /* WWAlbumTableView.m in Sources */,
-				432C9EE9238BD31E0056F289 /* WWPhotoManger.m in Sources */,
 				432C9EF8238BD7120056F289 /* WWAlbumViewController.m in Sources */,
 				432C9ED1238BBED40056F289 /* WWBaseRequest.m in Sources */,
 				438CFBB3238408AD00E6F0E1 /* ViewController.m in Sources */,
 				438CFBAD238408AD00E6F0E1 /* AppDelegate.m in Sources */,
-				432C9EFB238BD7F40056F289 /* WWPhotosManager.m in Sources */,
+				43B4AC052395FBF400525899 /* WWPhotosManager.m in Sources */,
 				43DEA69A2387903E003AA0D1 /* WWBaseViewController.m in Sources */,
 				432C9EEC238BD4A90056F289 /* WWAlbumView.m in Sources */,
 				432C9ED8238BBFAF0056F289 /* WWCameraAlbumController.m in Sources */,

@@ -2,7 +2,7 @@
 //  WWPhotosManager.m
 //  WWLearnDemo
 //
-//  Created by wwchao on 2019/11/25.
+//  Created by wwchao on 2019/12/3.
 //  Copyright © 2019 wwchao. All rights reserved.
 //
 
@@ -24,7 +24,7 @@
                 UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
                 
                 [WWPhotoManger standardPhotoManger].maxCount = maxCount;
-                navigationController.modalPresentationStyle = UIModalPresentationFullScreen;
+                
                 [viewController presentViewController:navigationController animated:YES completion:nil];
             }else{
                 UIAlertController *alertViewController = [UIAlertController alertControllerWithTitle:@"访问相册" message:@"您还没有打开相册权限" preferredStyle:UIAlertControllerStyleAlert];
@@ -43,7 +43,6 @@
                 [alertViewController addAction:action2];
                 
                 //相当于之前的[actionSheet show];
-                
                 [viewController presentViewController:alertViewController animated:YES completion:nil];
             }
         });
