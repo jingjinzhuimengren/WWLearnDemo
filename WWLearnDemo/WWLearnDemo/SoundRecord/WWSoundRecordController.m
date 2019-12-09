@@ -20,7 +20,7 @@
 @property(nonatomic, assign) NSInteger countDown;//倒计时,最多60秒
 @property(nonatomic, strong) AVAudioSession *session;
 @property(nonatomic, strong) AVAudioRecorder *recorder;//录音器
-@property(nonatomic, strong) AVAudioPlayer *player;//录音器
+@property(nonatomic, strong) AVAudioPlayer *player;//播音器
 @property(nonatomic, copy) NSString *recordFilePath;//录音文件沙盒地址
 @property(nonatomic, assign) BOOL isLeaveSpeakBtn;//是否上滑
     
@@ -39,12 +39,15 @@
 - (void)addUI{
     _recordButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _recordButton.frame = CGRectMake(50 , 200, 300 , 50);
+    _recordButton.backgroundColor = [UIColor greenColor];
     [_recordButton setTitle:@"开始录音" forState:UIControlStateNormal];
     [_recordButton addTarget:self action:@selector(recordButtonTouchUpInside) forControlEvents:UIControlEventTouchUpInside];
+    [_recordButton addTarget:self action:@selector(recordButtonTouchDown) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:_recordButton];
     
     _playRecordButton = [UIButton buttonWithType:UIButtonTypeSystem];
     _playRecordButton.frame = CGRectMake(50 , 300, 300 , 50);
+    _playRecordButton.backgroundColor = [UIColor yellowColor];
     [_playRecordButton setTitle:@"播放录音" forState:UIControlStateNormal];
     [_playRecordButton addTarget:self action:@selector(playRecordButtonTouchUpInside) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_playRecordButton];
@@ -60,17 +63,7 @@
     }
 }
 
-//检测权限
-- (void)alertSetPrivacy {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"请在设置中打开麦克风" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        [self dismissViewControllerAnimated:YES completion:nil];
-    }];
-    [alert addAction:cancel];
-    [self presentViewController:alert animated:YES completion:nil];
-}
-
-//摁住说话
+#pragma mark - 摁住说话
 - (void)recordButtonTouchDown {
     //info.plist配置权限
     if (![self cheakRecordPrivacy]) {
@@ -195,7 +188,7 @@
     }
 }
 
-//松开发送
+#pragma mark - 松开发送
 - (void)recordButtonTouchUpInside {
     NSLog(@"recordButtonTouchUpInside");
     
@@ -238,11 +231,12 @@
     //    [NSData dataWithContentsOfFile:_recordFilePath];
 }
 
+#pragma mark - 禁止其它按钮交互
 - (void)setupUserEnabled:(BOOL)enable {
     _playRecordButton.enabled = enable;
 }
 
-//上滑离开按钮区域松开 取消
+#pragma mark - 上滑离开按钮区域松开 取消
 - (void)recordButtonTouchUpOutside {
     NSLog(@"recordButtonTouchUpOutside");
     
@@ -265,6 +259,7 @@
     }
 }
 
+#pragma mark - 手指上滑，取消发送
 - (void)recordButtonTouchUpDragExit {
     NSLog(@"recordButtonTouchUpDragExit");
     _isLeaveSpeakBtn = YES;
@@ -274,6 +269,7 @@
     _volumeImageView.image = [UIImage imageNamed:@"rc_ic_volume_cancel"];
 }
 
+#pragma mark - 手指上滑，取消发送
 - (void)recordButtonTouchUpDragEnter {
     NSLog(@"recordButtonTouchUpDragEnter");
     _isLeaveSpeakBtn = NO;
@@ -281,7 +277,7 @@
     _volumeLabel.backgroundColor =  [UIColor clearColor];
 }
 
-//检查是否拥有麦克风权限
+#pragma mark - 检查是否拥有麦克风权限
 - (BOOL)cheakRecordPrivacy{
     
     __block BOOL canRecord = YES;
@@ -300,6 +296,17 @@
         canRecord = YES;
     }
     return canRecord;
+}
+
+
+#pragma mark - 检测权限
+- (void)alertSetPrivacy {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"请在设置中打开麦克风" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }];
+    [alert addAction:cancel];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 

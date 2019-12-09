@@ -1,16 +1,47 @@
-
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.coding.net/CocoaPods/Specs.git'
 
 platform:ios,'9.0'
 use_frameworks!
 target 'WWLearnDemo' do
 
+#网络请求https://github.com/yuantiku/YTKNetwork
 pod 'YTKNetwork'
-pod 'MBProgressHUD', '1.1.0'
-pod 'SDWebImage', '5.3.2'
+pod 'YYCategories'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'Masonry'
+pod 'MJRefresh'
 
-pod 'Masonry', '1.1.0'
-pod 'MJRefresh', '3.2.0'
+pod 'YYModel'
+pod 'YYWebImage'
+pod 'YYText'
+
+#日历
+pod 'FSCalendar'
+pod 'DZNEmptyDataSet'
+#圆角处理
+pod 'ZYCornerRadius'
+pod 'Bugly'
+pod 'IQKeyboardManager'
+#标签
+pod "TTGTagCollectionView"
+#网络监测
+pod 'Reachability'
+pod 'ReactiveObjC'
+#UISegmentedControl
+pod 'WMPageController'
+
+#轮播图https://github.com/12207480/TYCyclePagerView
+#pod 'TYCyclePagerView'
+
+#图片浏览https://github.com/indulgeIn/YBImageBrowser
+#pod 'YBImageBrowser'
+
+#Navigation https://github.com/rickytan/RTRootNavigationController
+pod 'RTRootNavigationController'
+
+#图片多选框架 https://github.com/banchichen/TZImagePickerController
+pod 'TZImagePickerController'
 
 
 end
